@@ -75,26 +75,41 @@ img {
 
 /* ----- MEDIA SCREEN -----  */
 
+/* primo */
+
 @media screen and (max-width: 420px) {
-  #lezioni, .container, .row.left.right, h3 {
+  /* #lezioni, .container, .row.left.right, h3 {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  #lezioni > .row {
     width: 100%;
   }
 
+  #lezioni > .row > .left, .right{
+    width: 100%;
+  }  */
+  
+/* secondo */
 
-  #steps, .container .container.grey, .row.left.central.right, h3 {
-     display: flex;
-     flex-wrap: wrap;
+  /* #steps, .container .container.grey, .row.left.central.right, h3 {
+    width: 100%;
+     
   }
 
-  #why, .container.container.grey, .row.first.second.third h3 {
-      display: flex;
-      flex-wrap: wrap;
-  }
+  #steps > .row > .left, .central, .right, h3{
+    float: left;
+    width: 100%;
+  /* } */ 
 
+.row, .container.grey{
+  width: 100%;
 }
- 
+
+#lezioni .row>.left, #lezioni .row>.right{
+  width: 100%;
+  float: left;
+}
+
+#steps .row>.left, #steps .row>.central, #steps .row>.right{
+  width: 100%;
+  float: left;
+}
