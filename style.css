@@ -76,23 +76,25 @@ img {
 /* ----- MEDIA SCREEN -----  */
 
 @media screen and (max-width: 420px) {
- #lezioni, .container, .row.left.right, h3 {
+  #lezioni, .container, .row.left.right, h3 {
     display: flex;
     flex-wrap: wrap;
-    
   }
-}
-@media screen and (max-width: 420px) {
+
+  #lezioni > .row {
+    width: 100%;
+  }
+
+
   #steps, .container .container.grey, .row.left.central.right, h3 {
      display: flex;
      flex-wrap: wrap;
-     
-   }
- }
- @media screen and (max-width: 420px) {
-  #why, .container.container.grey, .row.first.second,.third h3 {
-     display: flex;
-     flex-wrap: wrap;
-     
-   }
- }
+  }
+
+  #why, .container.container.grey, .row.first.second.third h3 {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+}
+ 
